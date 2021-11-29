@@ -4,18 +4,18 @@ import TheApp from './components/TheApp'
 import Features from './components/Features';
 import Footer from './components/Footer';
 import Pricing from './components/Pricing';
-import Clartiy from './components/Clarity';
+import Clarity from './components/Clarity';
 
 function App() {
   return (
-    <div>
-      <Carousel/>
+    <>
+       <Carousel/>
       <TheApp/>
-      <Clartiy/>
+      <Clarity/>
       <Features/>
-      <Pricing/>
+      <Pricing/> 
       <Footer/>
-    </div>
+    </>
   );
 }
 

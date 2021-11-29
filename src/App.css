@@ -15,5 +15,36 @@
 }
 
 .card:hover{
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgb(168, 168, 168) 10px 10px 10px;
+}
+
+.imgCol{
+  position: relative;
+}
+
+.leftButton{
+  position:absolute;
+  left :90%;
+  top: 50%;
+}
+
+.rightBox{
+  position: absolute;
+  top: 45%;
+}
+
+.bg-transBlack{
+  background-color:rgba(00, 00, 00, 0.5);
+  text-align: center;
+  border-radius: 10px;
+  color: rgb(180, 180, 180);
+
+}
+
+hr{
+  background-color: aliceblue;
+}
+
+.bg-purple{
+  background-color: purple;
 }

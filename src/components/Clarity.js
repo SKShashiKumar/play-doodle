@@ -1,6 +1,6 @@
-const Clartiy = () => {
+const Clarity = () => {
     return ( 
-        <div className="continer-fluid">
+        <div className="container-fluid">
             <div className="row">
                 <div className="col-sm-12 col-md-4">
                     <img src="../../img/app5.jpg" alt="Clarity" height="471px" width="331px"/>
@@ -25,4 +25,4 @@ const Clartiy = () => {
      );
 }
  
-export default Clartiy;
+export default Clarity;
