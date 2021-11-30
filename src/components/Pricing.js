@@ -2,10 +2,10 @@ import Plans from "./Plans";
 
 const Pricing = () => {
     return (  
-        <div className="container-fluid text-center bg-white">
+        <div className="container-fluid pricingMain">
             <div className="row">
                 <div className="col-md-12">
-                    <h1>Pricing</h1>
+                    <h3 className="pricingName">Pricing</h3>
                 </div>
             </div>
             <div className="row">

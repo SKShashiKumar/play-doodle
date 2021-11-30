@@ -11,32 +11,32 @@ const Plans = (props) => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-12 p-3">
-                    <p>{props.photos} Photos</p>
+                <div className="col-md-12 p-2">
+                    <p><span className="textBold">{props.photos}</span> Photos</p>
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-12 p-3">
-                    <p>{props.features} Features</p>
+                <div className="col-md-12 p-2">
+                    <p><span className="textBold">{props.features}</span> Features</p>
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-12 p-3">
-                    <p>{props.ads} Ads</p>
+                <div className="col-md-12 p-2">
+                    <p><span className="textBold">{props.ads}</span> Ads</p>
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-12 p-3">
-                    <p>{props.support} Support</p>
+                <div className="col-md-12 p-2">
+                    <p><span className="textBold">{props.support}</span> Support</p>
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-12 p-3 text-gray">
+                <div className="col-md-12 p-2 text-gray">
                     <h3>{props.price}</h3>
                 </div>
             </div>
             <div className="row bg-smoke">
-                <div className="col-md-12 p-3">
+                <div className="col-md-12 p-2">
                     <button className="btn btn-dark"><img src="https://img.icons8.com/ios-glyphs/24/ffffff/insert.png" alt="download"/>&nbsp;&nbsp;Download</button>
                 </div>
             </div>

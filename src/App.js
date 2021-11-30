@@ -1,5 +1,5 @@
 import './App.css';
-import Carousel from './components/Carousel';
+import Carousel from './components/Carousel/Carousel';
 import TheApp from './components/TheApp'
 import Features from './components/Features';
 import Footer from './components/Footer';
@@ -9,7 +9,7 @@ import Clarity from './components/Clarity';
 function App() {
   return (
     <>
-       <Carousel/>
+      <Carousel/>
       <TheApp/>
       <Clarity/>
       <Features/>

@@ -1,22 +1,27 @@
 const TheApp = () => {
     return ( 
-        <div className="container-fluid">
+        <div className="container-fluid TheApp">
             <div className="row">
                 <div className="col-md-8">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col">
-                                <h1>The App</h1>
-</div>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h2>Why buy it?</h2>
+                                <h1 className="AppName">The App</h1>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <p>Take photos like a pro. You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <h2 className="whybuy">Why buy it?</h2>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <p className="contentFull"><span className="firstContent">Take photos like a pro.</span>
+                                    You should buy this app because lorem ipsum consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                </p>
                             </div>
                         </div>
                         <div className="row">
@@ -34,7 +39,7 @@ const TheApp = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 text-right">
                     <img src="../../img/img_app.jpg" alt="img" height="471px" width="331px"/>
                 </div>
             </div>

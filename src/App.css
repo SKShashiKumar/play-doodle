@@ -30,21 +30,126 @@
 
 .rightBox{
   position: absolute;
-  top: 45%;
+  top: 40%;
 }
 
 .bg-transBlack{
-  background-color:rgba(00, 00, 00, 0.5);
+  opacity: 60%;
+  background-color:black;
   text-align: center;
   border-radius: 10px;
-  color: rgb(180, 180, 180);
+  color: whitesmoke;
+}
 
+.bg-transBlack:hover{
+  opacity: 100%;
+}
+
+.hvrBtn{
+  background-color: white;
+  color: black;
 }
 
 hr{
-  background-color: aliceblue;
+  background-color: rgb(99, 100, 100);
 }
 
 .bg-purple{
   background-color: purple;
+}
+
+
+/* The APP */
+.TheApp .row{
+  padding-top: 20px;
+}
+
+.TheApp .row:first-child{
+  padding-top: 40px;
+}
+
+.TheApp .row:last-child{
+  padding-bottom: 40px;
+}
+
+.AppName{
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.whybuy{
+  font-size: 50px;
+  color: rgb(4, 146, 4,0.8);
+  font-weight: 700;
+}
+
+.contentFull{
+  text-align: justify;
+}
+
+.firstContent{
+  font-size: 30px;
+}
+
+/* Clarity */
+.clarity{
+  padding: 45px 20px 45px 20px;
+}
+
+.clarity img{
+  padding-top: 3%;
+  padding-bottom: 15px;
+}
+
+.pixWho{
+  font-size: 50px;
+  color: rgba(255, 5, 5, 0.8);
+  font-weight: 700;
+}
+
+/* Features */
+.featuresMain{
+  background-color: rgb(97, 97, 97);
+  padding: 70px 20px 70px 20px;
+}
+
+
+.features div{
+  padding:2.5%;
+}
+
+.features p{
+  color: whitesmoke;
+}
+
+/* Pricing */
+.pricingMain{
+  background-color: white;
+  text-align: center;
+  padding: 5% 2% 5% 2%;
+}
+
+.pricingName{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.pricingMain .row{
+  padding: 1% 0% 1% 0%;
+}
+
+.textBold{
+  font-weight: 700;
+}
+
+/* Footer */
+.footer{
+  background-color: whitesmoke;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+.footer .row{
+  padding-top:1%;
+  padding-bottom:1%;
 }
