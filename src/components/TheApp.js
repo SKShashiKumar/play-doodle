@@ -2,7 +2,7 @@ const TheApp = () => {
     return ( 
         <div className="container-fluid TheApp">
             <div className="row">
-                <div className="col-md-8">
+                <div className="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col">
@@ -39,7 +39,7 @@ const TheApp = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 text-right">
+                <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 xol-xl-4 text-right">
                     <img src="../../img/img_app.jpg" alt="img" height="471px" width="331px"/>
                 </div>
             </div>

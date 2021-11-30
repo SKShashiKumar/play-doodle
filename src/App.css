@@ -24,14 +24,16 @@
 
 .leftButton{
   position:absolute;
-  left :90%;
-  top: 50%;
+  left :85%;
+  top: 45%;
 }
+
 
 .rightBox{
   position: absolute;
   top: 40%;
 }
+
 
 .bg-transBlack{
   opacity: 60%;
@@ -58,27 +60,44 @@ hr{
   background-color: purple;
 }
 
+@media (min-width:576px) and (max-width:768px) {
+  .leftButton{
+    position:absolute;
+    left :80%;
+    top: 45%;
+  }
+  
+  .rightBox{
+    position:absolute;
+    top: 10%;
+  }
+}
+
+@media (max-width:575px){
+
+}
+
 
 /* The APP */
 .TheApp .row{
-  padding-top: 20px;
+  padding-top: 2%;
 }
 
 .TheApp .row:first-child{
-  padding-top: 40px;
+  padding-top: 4%;
 }
 
 .TheApp .row:last-child{
-  padding-bottom: 40px;
+  padding-bottom: 4%;
 }
 
 .AppName{
-  font-size: 70px;
+  font-size: 4rem;
   font-weight: 700;
 }
 
 .whybuy{
-  font-size: 50px;
+  font-size: 3rem;
   color: rgb(4, 146, 4,0.8);
   font-weight: 700;
 }
@@ -88,21 +107,21 @@ hr{
 }
 
 .firstContent{
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 /* Clarity */
 .clarity{
-  padding: 45px 20px 45px 20px;
+  padding: 3% 2% 3% 2%;
 }
 
 .clarity img{
   padding-top: 3%;
-  padding-bottom: 15px;
+  padding-bottom: 2%;
 }
 
 .pixWho{
-  font-size: 50px;
+  font-size: 3rem;
   color: rgba(255, 5, 5, 0.8);
   font-weight: 700;
 }
@@ -110,7 +129,8 @@ hr{
 /* Features */
 .featuresMain{
   background-color: rgb(97, 97, 97);
-  padding: 70px 20px 70px 20px;
+  padding: 5% 2% 5% 2%;
+
 }
 
 
@@ -130,7 +150,7 @@ hr{
 }
 
 .pricingName{
-  font-size: 60px;
+  font-size: 4rem;
   font-weight: 700;
 }
 
@@ -140,6 +160,14 @@ hr{
 
 .textBold{
   font-weight: 700;
+}
+
+.card .row{
+  border-bottom: 0.05px solid rgb(187, 186, 186,0.5);
+}
+
+.card .row:last-child{
+  border-bottom: none;
 }
 
 /* Footer */

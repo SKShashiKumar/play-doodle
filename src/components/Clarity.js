@@ -2,10 +2,10 @@ const Clarity = () => {
     return ( 
         <div className="container-fluid bg-smoke">
             <div className="row">
-                <div className="col-sm-12 col-md-4 clarity">
+                <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 xol-xl-4 clarity">
                     <img src="../../img/app5.jpg" alt="Clarity" height="471px" width="331px"/>
                 </div>
-                <div className="col-md-8 clarity">
+                <div className="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 clarity">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-md-12">

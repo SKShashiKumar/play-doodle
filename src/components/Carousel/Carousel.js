@@ -10,10 +10,10 @@ const Carousel = () => {
       {(cor === 1)?
       <div className="row">
         <img src="../../img/app.jpg" alt="c1" height="100%" width="100%"/>
-        <button className="btn btn-dark leftButton" onClick={() => setCor(2)}>Take Tour&nbsp;&gt;</button>
+          <button className="btn btn-dark leftButton" onClick={() => setCor(2)}>Take Tour&nbsp;&gt;</button>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-4 rightBox">
+            <div className="col-xs-none col-sm-4 col-md-4 col-lg-4 col-xl-4 rightBox">
               <InfoBox heading="Take photos with our app" content="Super simple installment: free of charge" btnclassName= "btn col-md-11 mx-auto bg-success hvrBtn"/>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Carousel = () => {
         <button className="btn btn-dark leftButton" onClick={() => setCor(3)}>Take Tour&nbsp;&gt;</button>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-4 rightBox">
+            <div className="col-xs-none col-sm-4 col-md-4 col-lg-4 col-xl-4 rightBox">
               <InfoBox heading="Take photos with our app" content="Super simple installment: free of charge" btnclassName= "btn col-md-11 mx-auto bg-danger hvrBtn"/>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Carousel = () => {
         <button className="btn btn-dark leftButton" onClick={() => setCor(1)}>Take Tour&nbsp;&gt;</button>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-4 rightBox">
+            <div className="col-xs-none col-sm-4 col-md-4 col-lg-4 col-xl-4 rightBox">
               <InfoBox heading="Take photos with our app" content="Super simple installment: free of charge" btnclassName= "btn col-md-11 mx-auto bg-purple hvrBtn"/>
             </div>
           </div>
