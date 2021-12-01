@@ -14,10 +14,10 @@ const Pricing = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-6 p-2">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-2">
                     <Plans color={'#616161'} heading={'Basic'} photos={250} features={10} ads={'NO'} support={'Office hours'} price={'$ 25'}/>
                 </div>
-                <div className="col-md-6 p-2">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-2">
                     <Plans color={'#f44336'} heading={'Premium'} photos={1000} features={50} ads={'NO'} support={'Endless'} price={'$ 99'}/>
                 </div>
             </div>

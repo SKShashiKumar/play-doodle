@@ -60,6 +60,17 @@ hr{
   background-color: purple;
 }
 
+.unTopBtn{
+  position:absolute;
+  visibility: hidden;
+}
+
+.unBottomBtn{
+  position: absolute;
+  top: 99%;
+  visibility: hidden;
+}
+
 @media (min-width:576px) and (max-width:768px) {
   .leftButton{
     position:absolute;
@@ -73,8 +84,37 @@ hr{
   }
 }
 
-@media (max-width:575px){
+@media (max-width:576px) {
+  .leftButton{
+    position:absolute;
+    left :70%;
+    top: 45%;
+    visibility: hidden;
+  }
+  
+  .rightBox{
+    position:absolute;
+    top: 10%;
+    visibility: hidden;
+  }
 
+  .unTopBtn{
+    position:absolute;
+    visibility:visible;
+  }
+  
+  .unBottomBtn{
+    position: absolute;
+    top: 99%;
+    visibility:visible;
+
+  }
+}
+
+@media (min-width:576px) and (max-width:675px){
+  .downloadBtn{
+    font-size: small;
+  }
 }
 
 
@@ -110,6 +150,19 @@ hr{
   font-size: 2rem;
 }
 
+.appImage{
+  width: 331px;
+  height: 471px;
+}
+
+@media (min-width:575px) and (max-width:768px){
+  .appImage{
+    width: 231px;
+    height: 371px;
+  }
+  
+}
+
 /* Clarity */
 .clarity{
   padding: 3% 2% 3% 2%;
@@ -129,10 +182,9 @@ hr{
 /* Features */
 .featuresMain{
   background-color: rgb(97, 97, 97);
-  padding: 5% 2% 5% 2%;
-
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-
 
 .features div{
   padding:2.5%;
@@ -146,7 +198,8 @@ hr{
 .pricingMain{
   background-color: white;
   text-align: center;
-  padding: 5% 2% 5% 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .pricingName{
@@ -155,7 +208,8 @@ hr{
 }
 
 .pricingMain .row{
-  padding: 1% 0% 1% 0%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .textBold{

@@ -3,7 +3,7 @@ const Features = () => {
         <div className="container-fluid featuresMain text-center">
             <div className="row">
                 <div className="col">
-                    <h1 className="text-white p-2 AppName">Features</h1>
+                    <h1 className="text-white AppName">Features</h1>
                 </div>
             </div>
             <div className="row">

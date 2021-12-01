@@ -1,3 +1,4 @@
+import PopModal from "./PopModal";
 const TheApp = () => {
     return ( 
         <div className="container-fluid TheApp">
@@ -26,7 +27,7 @@ const TheApp = () => {
                         </div>
                         <div className="row">
                             <div className="col">
-                                <button className="btn btn-white"><img src="https://img.icons8.com/ios-glyphs/24/000000/insert.png" alt="download"/>&nbsp;&nbsp;Download Application</button>
+                                <button className="btn btn-white" onClick={() => <PopModal val={true}/>}><img src="https://img.icons8.com/ios-glyphs/24/000000/insert.png" alt="download"/>&nbsp;&nbsp;Download Application</button>
                             </div>
                         </div>
                         <div className="row">
@@ -40,7 +41,7 @@ const TheApp = () => {
                     </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 xol-xl-4 text-right">
-                    <img src="../../img/img_app.jpg" alt="img" height="471px" width="331px"/>
+                    <img src="../../img/img_app.jpg" alt="img" className="appImage"/>
                 </div>
             </div>
         </div>
