@@ -6,6 +6,7 @@ import Pricing from './components/Pricing';
 import Clarity from './components/Clarity';
 
 import './App.css';
+// import PopModal from './components/PopModal';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features/>
       <Pricing/> 
       <Footer/>
+      {/* <PopModal/> */}
     </>
   );
 }

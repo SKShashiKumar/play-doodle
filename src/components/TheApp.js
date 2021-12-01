@@ -1,6 +1,11 @@
-import PopModal from "./PopModal";
+import React,{useState} from 'react';
+import PopModal from './PopModal'
+
 const TheApp = () => {
-    return ( 
+
+    const [isPopOpen, setIsPosOpen] = useState(false)
+    
+        return ( 
         <div className="container-fluid TheApp">
             <div className="row">
                 <div className="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8">
@@ -27,7 +32,7 @@ const TheApp = () => {
                         </div>
                         <div className="row">
                             <div className="col">
-                                <button className="btn btn-white" onClick={() => <PopModal val={true}/>}><img src="https://img.icons8.com/ios-glyphs/24/000000/insert.png" alt="download"/>&nbsp;&nbsp;Download Application</button>
+                                <button className="btn btn-white" onClick={() => setIsPosOpen(!isPopOpen)}><img src="https://img.icons8.com/ios-glyphs/24/000000/insert.png" alt="download"/>&nbsp;&nbsp;Download Application</button>
                             </div>
                         </div>
                         <div className="row">
@@ -37,6 +42,8 @@ const TheApp = () => {
                                 <img src="https://img.icons8.com/color/24/000000/windows-10.png" alt="windows"/>
                                 </p>
                             </div>
+                    <PopModal show={isPopOpen} handleClose={() => setIsPosOpen(false)} />
+
                         </div>
                     </div>
                 </div>

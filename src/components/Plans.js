@@ -1,6 +1,11 @@
+import React,{useState} from 'react';
 import { Card } from "@mui/material";
+import  PopModal from "./PopModal";
 
 const Plans = (props) => {
+    
+    const [isPopOpen, setIsPosOpen] = useState(false)
+
     return ( 
 
         <div className="container">
@@ -37,7 +42,8 @@ const Plans = (props) => {
             </div>
             <div className="row bg-smoke">
                 <div className="col p-2">
-                    <button className="btn btn-dark"><img src="https://img.icons8.com/ios-glyphs/24/ffffff/insert.png" alt="download"/>&nbsp;&nbsp;Download</button>
+                    <button className="btn btn-dark" onClick={() => setIsPosOpen(!isPopOpen)}><img src="https://img.icons8.com/ios-glyphs/24/ffffff/insert.png" alt="download"/>&nbsp;&nbsp;Download</button>
+                    <PopModal show={isPopOpen} handleClose={() => setIsPosOpen(false)} />
                 </div>
             </div>
             </Card>

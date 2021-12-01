@@ -1,5 +1,10 @@
+import React,{useState} from 'react';
 import PopModal from '../PopModal'
+
 const InfoBox = (props) => {
+
+    const [isPopOpen, setIsPosOpen] = useState(false)
+
     return ( 
         <div className="container-fluid bg-transBlack text-center p-3">
             <div className="row pt-2 pb-2">
@@ -15,12 +20,13 @@ const InfoBox = (props) => {
             </div>
             <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <button className={props.btnclassName} onClick={() => <PopModal/>}>
+                    <button className={props.btnclassName} onClick={() => setIsPosOpen(!isPopOpen)}>
                             <span className="text-white downloadBtn">Download</span>
                             <img src="https://img.icons8.com/material-rounded/16/ffffff/android-os.png" alt="android"/>
                             <img src="https://img.icons8.com/ios-filled/16/ffffff/mac-os.png" alt="mac"/>
                             <img src="https://img.icons8.com/ios-glyphs/16/ffffff/windows-10.png" alt="windows"/>   
                     </button>
+                    <PopModal show={isPopOpen} handleClose={() => setIsPosOpen(false)} />
                 </div>
             </div>
         </div>
